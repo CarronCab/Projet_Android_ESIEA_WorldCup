@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Accueil"
+        android:background="@color/colorAccent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/main_menu_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+        <Button
+            android:id="@+id/buttonAccueilEquipes1"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/main_menu_toolbar"
+            android:background="@drawable/basic_button"
+            android:onClick="AllerEquipes"
+            android:text="@string/equipes"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+            android:id="@+id/buttonAccueilPoules1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/buttonAccueilEquipes1"
+            android:background="@drawable/basic_button"
+            android:textColor="@color/colorAccent"
+            android:onClick="AllerPoules"
+            android:text="@string/poules" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+            android:id="@+id/buttonAccueilTournois1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/buttonAccueilPoules1"
+            android:background="@drawable/basic_button"
+            android:textColor="@color/colorAccent"
+            android:onClick="AllerTournois"
+            android:text="@string/tournois" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+            android:id="@+id/buttonAccueilStades1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/buttonAccueilTournois1"
+            android:background="@drawable/basic_button"
+            android:textColor="@color/colorAccent"
+            android:onClick="AllerStades"
+            android:text="@string/stades" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+            android:id="@+id/buttonAccueilMain1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/buttonAccueilStades1"
+            android:background="@drawable/basic_button"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentEnd="true"
+            android:onClick="AllerMain"
+            android:text="@string/main" />
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/actionbar"
+        app:headerLayout="@layout/nav_header"/>
+
+</android.support.v4.widget.DrawerLayout>
+

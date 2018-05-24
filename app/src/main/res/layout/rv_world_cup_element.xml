@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/cardview_dark_background">
+
+    <com.master.glideimageview.GlideImageView
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:id="@+id/rv_world_cup_element_flag"
+        android:scaleType="centerCrop"
+        app:error_res="@drawable/no_image"
+        app:placeholder_res="@drawable/loading"
+
+        />
+
+    <TextView
+        android:layout_below="@id/rv_world_cup_element_flag"
+        android:layout_margin="5dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_world_cup_element_name"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/iso"
+        android:layout_below="@+id/rv_world_cup_element_flag"
+        android:layout_marginTop="10dp"
+        android:text="@string/contry_s_id"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/rv_world_cup_element_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/rv_world_cup_element_iso"
+        android:layout_alignTop="@+id/rv_world_cup_element_name"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textAlignment="textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:layout_toEndOf="@id/fifaCode"
+        android:id="@+id/rv_world_cup_element_iso"
+        android:layout_below="@id/iso"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textAlignment="textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/iso"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/rv_world_cup_element_fifa_code"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/iso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/country_s_iso"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="230dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/fifaCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/country_s_fifacode"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="195dp"
+        android:layout_below="@id/iso"
+        android:textColor="@color/colorAccent"
+        />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/rv_world_cup_element_name"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="0dp"
+        />
+
+
+</RelativeLayout>

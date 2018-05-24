@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/cardview_dark_background">
+
+    <com.master.glideimageview.GlideImageView
+        android:id="@+id/rv_stadium_element_image"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        app:error_res="@drawable/no_image"
+        app:placeholder_res="@drawable/loading"/>
+
+    <TextView
+        android:layout_below="@id/rv_stadium_element_image"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_stadium_element_name"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_stadium_element_city"
+        android:layout_below="@id/rv_stadium_element_name"
+        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/background"/>
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="270dp"
+        android:text="@string/stadium_s_id"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/rv_stadium_element_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/id"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/rv_stadium_element_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/see_on_map"
+        android:background="@drawable/basic_button"
+        android:textSize="10sp"
+        tools:ignore="SmallSp"
+        android:layout_below="@+id/rv_stadium_element_id"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/rv_stadium_element_wiki"
+        android:background="@drawable/basic_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wiki"
+        android:textSize="10sp"
+        tools:ignore="SmallSp"
+        android:layout_below="@+id/rv_stadium_element_button"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentEnd="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/rv_stadium_element_wiki"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="3dp"
+        />
+
+</RelativeLayout>

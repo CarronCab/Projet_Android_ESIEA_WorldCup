@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ESIEA WorldCup</string>
+    <string name="accueil">Menu</string>
+    <string name="main">Main screen</string>
+    <string name="equipes">Teams</string>
+    <string name="poules">Pools</string>
+    <string name="tournois">Tournament</string>
+    <string name="stades">Stadiums</string>
+    <string name="retour">Back</string>
+    <string name="texte_credit2">Its goal is to bring together a maximum of informations about the 2018 world cup in Russia.So she includes 6 activities :\n- A main Screen\n- A menu\n- A page about the teams\n- A page about the pools\n- A page about the tournament\n- This page of credits</string>
+    <string name="texte_credit1">This android application has been realised as part of the third year by the students Mathieu BARRAULT and Charles CARRON-CABARET.</string>
+    <string name="maintext">Click anywhere !</string>
+    <string name="contry_s_id">countr\'s id :</string>
+    <string name="country_s_iso">Contry\'s iso :</string>
+    <string name="country_s_fifacode">Country\'s FifaCode</string>
+    <string name="stadium_s_id">Stadium\'s id :</string>
+    <string name="see_on_map">See on map</string>
+    <string name="home">Home</string>
+    <string name="wiki">Wiki</string>
+    <string name="credits">Credits</string>
+    <string name="quitter">Leave</string>
+    <string name="tourner">Turn your screen !</string>
+    <string name="titre_notif">ESIEA WorldCup</string>
+    <string name="texte_notif">Vous venez de quitter l\'application.</string>
+    <string name="disponible">This app is available in french and in english.</string>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ESIEA WorldCup</string>
+    <string name="accueil">Accueil</string>
+    <string name="main">Ecran principal</string>
+    <string name="equipes">Equipes</string>
+    <string name="poules">Poules</string>
+    <string name="tournois">Tournois</string>
+    <string name="stades">Stades</string>
+    <string name="retour">Retour</string>
+
+    <string name="texte_credit2">Elle a pour but de rassembler un maximum d\'informations concernant la coupe du monde 2018 en Russie. Ainsi, elle comporte 6 activités :\n- Un écran d\'accueil\n- Un menu \n- Une page sur les équipes\n- Une page sur les poules\n- Une page sur le tournois\n- Une page sur les stades\n- Cette page de crédits</string>
+    <string name="texte_credit1">Cette application android a été réalisée dans le cadre d\'un projet de troisième année par les étudiants Mathieu BARRAULT et Charles CARRON-CABARET.</string>
+    <string name="maintext">Appuyez n\'importe où !</string>
+    <string name="contry_s_id">countr\'s id :</string>
+    <string name="country_s_iso">Contry\'s iso :</string>
+    <string name="country_s_fifacode">Country\'s FifaCode</string>
+    <string name="stadium_s_id">Stadium\'s id :</string>
+    <string name="see_on_map">See on map</string>
+    <string name="home">Home</string>
+    <string name="wiki">Wiki</string>
+    <string name="credits">Credits</string>
+    <string name="quitter">Leave</string>
+    <string name="tourner">Tournez votre écran !</string>
+    <string name="titre_notif">ESIEA WorldCup</string>
+    <string name="texte_notif">Vous venez de quitter l\'application.</string>
+    <string name="disponible">Cette application est deisponible en français et en anglais US.</string>
+
+</resources>
